@@ -1,0 +1,97 @@
+.tovar {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 3em 0;
+}
+
+.tovar__wrapper {
+    padding: 2em 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.tovar__wrapper h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    font-family: 'Inter';
+    color: #222;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+}
+
+.show-img {
+    margin: auto;
+}
+.tovar__gallary {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    border: 1px solid #222;
+    width: 30%;
+}
+.tovar__description {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.tovar__description h3 {
+    color: #222;
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 130%;
+}
+.img {
+    cursor: pointer;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+.gallary__images {
+    margin: auto;
+}
+
+td {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.tovar__text {
+    padding: 1.5em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.tovar__text p {
+    font-size: 24px;
+    line-height: 100%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #222;
+}
+
+
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .tovar__gallary, .tovar__description {
+        width: 100%;
+    }
+}

@@ -1,0 +1,74 @@
+.payment {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 2em 0;
+}
+
+.payment__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment__wrapper h2 {
+    font-family: 'Inter';
+    font-size: 32px;
+    line-height: 100%;
+    font-weight: 600;
+    color: #222;
+}
+.payment__wrapper p {
+    font-size: 20px;
+    line-height: 130%;
+    color: #222;
+    font-family: 'Roboto';
+    margin: 1em 0;
+}
+.payment__wrapper div {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.payment__wrapper a {
+    color: #222;
+}
+.payment__wrapper iframe {
+    width: 1200px;
+    height: 500px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .payment__wrapper iframe {
+    width: 1024px;
+    height: 400px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+    .payment__wrapper iframe {
+    width: 990px;
+    height: 300px;
+}
+}
+
+@media screen and (max-width: 990px) {
+    .payment__wrapper iframe {
+    width: 768px;
+    height: 300px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .payment__wrapper iframe {
+    width: 576px;
+    height: 300px;
+}
+}
+
+@media screen and (max-width: 576px) {
+    .payment__wrapper iframe {
+    width: 300px;
+    height: 300px;
+}
+}
